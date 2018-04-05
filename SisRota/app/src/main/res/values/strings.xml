@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SisRota</string>
+    <string name="btnEntrar">Entrar</string>
+    <string name="btnCadastrar">Cadastrar</string>
+    <string name="tvNome">Nome:</string>
+    <string name="tvEndereco">Endereço:</string>
+    <string name="tvTelefone">Telefone:</string>
+    <string name="tvSenha">Senha:</string>
+    <string name="tvEmail">Email</string>
+</resources>
