@@ -1,0 +1,119 @@
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sisrotarodape"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="485dp" />
+
+    <TextView
+        android:id="@+id/tvNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/tvNome"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvNome"
+        android:layout_below="@+id/tvNome"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <TextView
+        android:id="@+id/tvEndereco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/tvNome"
+        android:text="@string/tvEndereco"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="93dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvNome"
+        android:layout_below="@+id/tvEndereco"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="112dp" />
+
+    <TextView
+        android:id="@+id/tvTelefone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/tvNome"
+        android:text="@string/tvTelefone"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="170dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvNome"
+        android:layout_below="@+id/tvTelefone"
+        android:ems="10"
+        android:inputType="textPersonName|number"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/tvNome"
+        android:text="@string/tvEmail"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="244dp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvNome"
+        android:layout_below="@+id/tvSenha"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="263dp" />
+    
+    <TextView
+        android:id="@+id/tvSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvSenha"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="317dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="336dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/btnCadastrar"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="412dp" />
+    
