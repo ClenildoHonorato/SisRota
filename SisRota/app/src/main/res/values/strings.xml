@@ -7,4 +7,11 @@
     <string name="tvTelefone">Telefone:</string>
     <string name="tvSenha">Senha:</string>
     <string name="tvEmail">Email</string>
+    <string name="btnProducao">Produção</string>
+    <string name="btnCad">Editar</string>
+    <string name="btnDiario">R.Diario</string>
+    <string name="btnMensal">R.Mensal</string>
+    <string name="btnConfig">Configurção</string>
+    <string name="btnSalvarPro">Salvar</string>
+    <string name="btnCancelarPro">Cancelar</string>
 </resources>
