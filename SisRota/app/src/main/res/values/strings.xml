@@ -14,4 +14,12 @@
     <string name="btnConfig">Configurção</string>
     <string name="btnSalvarPro">Salvar</string>
     <string name="btnCancelarPro">Cancelar</string>
+    <string name="tvTipoVeic">Tipo de Veiculo:</string>
+    <string name="tvKmlitro">Km/Litro:</string>
+    <string name="tvValorComb">Valor do Combustivel:</string>
+    <string name="tvKmDiario">Km Diario</string>
+    <string name="tvLitroGastos">Litro Gastos</string>
+    <string name="tvGastosDiarios">Gastos Diarios</string>
+
+
 </resources>

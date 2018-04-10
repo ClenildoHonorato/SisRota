@@ -49,7 +49,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignStart="@+id/tvNome"
         android:layout_marginStart="3dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="11dp"
         android:text="@string/tvEndereco"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText2" />
@@ -100,7 +100,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/tvNome"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="9dp"
         android:text="@string/tvEmail"
         app:layout_constraintStart_toStartOf="@+id/editText5"
         app:layout_constraintTop_toBottomOf="@+id/editText4" />
@@ -123,9 +123,9 @@
         android:id="@+id/tvSenha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="7dp"
         android:text="@string/tvSenha"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/editText"
         app:layout_constraintTop_toBottomOf="@+id/editText5" />
 
     <EditText
@@ -146,7 +146,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="15dp"
         android:text="@string/btnCadastrar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

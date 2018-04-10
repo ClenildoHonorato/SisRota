@@ -20,7 +20,8 @@
         <activity android:name=".MenuActivity" />
         <activity android:name=".TelaProducao" />
         <activity android:name=".RelatorioDiario" />
-        <activity android:name=".TelaConfiguracao"></activity>
+        <activity android:name=".TelaConfiguracao" />
+        <activity android:name=".RelatorioMensal"></activity>
     </application>
 
 </manifest>

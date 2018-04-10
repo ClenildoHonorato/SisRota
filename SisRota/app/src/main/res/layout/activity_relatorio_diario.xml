@@ -17,10 +17,10 @@
         app:srcCompat="@drawable/sisrotarodape" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tvKmDiario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Km Diario"
+        android:text="@string/tvKmDiario"
         app:layout_constraintBottom_toTopOf="@+id/etRelKmDiario"
         app:layout_constraintStart_toStartOf="@+id/etRelKmDiario" />
 
@@ -38,10 +38,10 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/tvLitroGastos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Litro Gastos"
+        android:text="@string/tvLitroGastos"
         app:layout_constraintBottom_toTopOf="@+id/etRelLitroGas"
         app:layout_constraintStart_toStartOf="@+id/etRelLitroGas" />
 
@@ -59,15 +59,15 @@
         app:layout_constraintTop_toBottomOf="@+id/etRelKmDiario" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/tvGastosDiarios"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Gastos Diarios"
-        app:layout_constraintBottom_toTopOf="@+id/editText8"
-        app:layout_constraintStart_toStartOf="@+id/editText8" />
+        android:text="@string/tvGastosDiarios"
+        app:layout_constraintBottom_toTopOf="@+id/etRelGastosDia"
+        app:layout_constraintStart_toStartOf="@+id/etRelGastosDia" />
 
     <EditText
-        android:id="@+id/editText8"
+        android:id="@+id/etRelGastosDia"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="15dp"

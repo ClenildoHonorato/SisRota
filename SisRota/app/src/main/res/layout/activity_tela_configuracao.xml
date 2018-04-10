@@ -4,7 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TelaConfiguracao">
+    tools:context=".TelaConfiguracao"
+    tools:layout_editor_absoluteY="81dp">
+
+    <RadioButton
+        android:id="@+id/rbCarro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_weight="1"
+        android:text="Carro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTipoVeic" />
+
+    <RadioButton
+        android:id="@+id/rbMoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_weight="1"
+        android:text="Moto"
+        app:layout_constraintStart_toStartOf="@+id/rbCarro"
+        app:layout_constraintTop_toTopOf="@+id/rbCarro" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -17,85 +38,82 @@
         app:srcCompat="@drawable/sisrotarodape" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tvTipoVeic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tipo de Veiculo:"
+        android:layout_marginTop="16dp"
+        android:text="@string/tvTipoVeic"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp" />
-
-    <RadioGroup
-        android:layout_width="101dp"
-        android:layout_height="61dp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="48dp">
-
-        <RadioButton
-            android:id="@+id/radioButton4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Carro" />
-
-        <RadioButton
-            android:id="@+id/radioButton3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Moto" />
-    </RadioGroup>
+        app:layout_constraintEnd_toEndOf="@+id/rbCarro"
+        app:layout_constraintStart_toEndOf="@+id/rbCarro"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/tvKmlitro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Km/Litro:"
+        android:layout_marginTop="26dp"
+        android:text="@string/tvKmlitro"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="125dp" />
+        app:layout_constraintStart_toStartOf="@+id/etConKmLitro"
+        app:layout_constraintTop_toBottomOf="@+id/rbMoto" />
 
     <EditText
         android:id="@+id/etConKmLitro"
-        android:layout_width="329dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="24dp"
         android:ems="10"
         android:inputType="number"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="150dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvKmlitro" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/tvValorComb"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Media de Consumo:"
+        android:layout_marginTop="18dp"
+        android:text="@string/tvValorComb"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="215dp" />
+        app:layout_constraintStart_toStartOf="@+id/etConMedCons"
+        app:layout_constraintTop_toBottomOf="@+id/etConKmLitro" />
 
     <EditText
         android:id="@+id/etConMedCons"
-        android:layout_width="329dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="24dp"
         android:ems="10"
         android:inputType="number"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="240dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvValorComb" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnSalvarCon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="69dp"
-        tools:layout_editor_absoluteY="312dp" />
+        android:layout_marginEnd="4dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="26dp"
+        android:text="@string/btnSalvarPro"
+        app:layout_constraintEnd_toStartOf="@+id/btnCancelarCon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etConMedCons" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnCancelarCon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="213dp"
-        tools:layout_editor_absoluteY="312dp" />
+        android:layout_marginTop="26dp"
+        android:text="@string/btnCancelarPro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnSalvarCon"
+        app:layout_constraintTop_toBottomOf="@+id/etConMedCons" />
 
 </android.support.constraint.ConstraintLayout>

@@ -36,6 +36,7 @@
         android:layout_marginEnd="3dp"
         android:layout_marginTop="99dp"
         android:text="@string/btnCad"
+        android:onClick="TelaEditar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btnProducao"
         app:layout_constraintTop_toTopOf="parent" />
@@ -46,6 +47,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="30dp"
         android:text="@string/btnDiario"
+        android:onClick="TelaRelDiario"
         app:layout_constraintBaseline_toBaselineOf="@+id/btnMensal"
         app:layout_constraintEnd_toStartOf="@+id/btnMensal"
         app:layout_constraintStart_toStartOf="parent" />
@@ -57,6 +59,7 @@
         android:layout_marginEnd="3dp"
         android:layout_marginTop="68dp"
         android:text="@string/btnMensal"
+        android:onClick="TelaRelMensal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btnDiario"
         app:layout_constraintTop_toBottomOf="@+id/btnCad" />
@@ -67,6 +70,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="54dp"
         android:text="@string/btnConfig"
+        android:onClick="TelaConfig"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnDiario" />
